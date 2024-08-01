@@ -1,20 +1,19 @@
 <template>
   <div>
-    <AddCell/>
+    <v-btn>+ Bingo Board</v-btn>
     <GameBoard/>
   </div>
 </template>
 
 <script>
-import AddCell from './control_panel/AddCell.vue'
 import GameBoard from './bingo_board/GameBoard.vue'
 export default {
  components: { 
-   AddCell,
    GameBoard
  },
  name: 'GameController'
 }
+
 </script>
 
 <style>

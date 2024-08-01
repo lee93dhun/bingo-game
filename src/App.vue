@@ -1,5 +1,5 @@
 <template>
-<v-app>
+  <v-app>
   <div>
     
     <v-container>
@@ -7,7 +7,7 @@
       <GameController/>
     </v-container>
   </div>
-    </v-app>
+  </v-app>
 </template>
 
 <script>

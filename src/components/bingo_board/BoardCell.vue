@@ -31,8 +31,8 @@ export default {
 <style>
     .cell{
         border: 1px solid #FFF;
-        width: 50px;
-        height: 50px;
+        width: 70px;
+        height: 70px;
     }
     .cell:hover{
       border: 1px solid #8b0000;
